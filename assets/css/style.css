@@ -1,0 +1,113 @@
+
+/*Estilos da página index.html*/
+
+#autor{
+   margin-left: 46%;
+   color: white;
+}
+
+
+#img{
+    margin-left: 40%;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: black;
+}
+
+
+#descricao{
+    width: 50%;
+    overflow: hidden;
+    margin-left: 25%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+
+.center{
+    text-align: center;
+}
+
+
+.flex-container{
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-around;
+   color: white;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.flex-container > div{
+   width: 35%;
+   text-align: center;
+   line-height: 20px;
+   font-size: 20px;
+   margin-bottom: 30px;
+   border-style: solid;
+   border-color: black;
+}
+
+
+.menu li{
+    display: inline-flex;
+    padding: 5px;
+}
+
+
+/*Tirando o efeito de link e deixando na cor preta*/
+.menu li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/*Adicionando efeito ao passar com o mouse por cima do texto*/
+.menu li a:hover{
+    color: blue;
+}
+
+
+.rodape{
+    margin-left: 38%;
+}
+
+
+.pad{
+    padding: 30px;
+}
+
+
+body{
+    background:linear-gradient(rgba(139,69,19,1),rgba(139,69,19,1)100%);
+}
+
+
+section{
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)100%), url("../img/images.jpg");
+}
+
+
+/*Estilo da página comentarios.html*/
+
+.coment{
+    padding-left: 100px;
+    color: white;
+}
+
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    width: 1500px;
+    padding-bottom: 30%;
+}
+
+
+.endereco{
+    padding-left: 700px;
+    color: white;
+}
